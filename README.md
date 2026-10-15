@@ -23,7 +23,6 @@ a matching service.
 scaffold, one weekend of exploratory UI work; superseded, no users, no tests, no
 build config beyond the stock template.
 
-**License:** No LICENSE file. Assumed the owner's own experimental code; add a
-license before any public use. The Vite/Vue scaffold is MIT (upstream template).
+**License:** GNU AGPL v3 (see [`LICENSE`](LICENSE)); third-party dependencies retain their own licenses.
 
 ---

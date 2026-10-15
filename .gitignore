@@ -3,3 +3,8 @@ __pycache__/
 .venv/
 node_modules/
 .ipynb_checkpoints/
+.pi/
+dist/
+.env
+.env.*
+!.env.example
