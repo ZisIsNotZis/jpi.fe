@@ -26,8 +26,9 @@ npm run dev
 ```
 
 Open the URL Vite prints (usually `http://localhost:5173`). The entity list and paging
-call `http://127.0.0.1:8080/api`, hardcoded in [`src/App.vue`](src/App.vue); without a
-compatible backend the sample document still renders, but loading and saving do not.
+call the protocol-relative base `//127.0.0.1:8080/api`, hardcoded in
+[`src/App.vue`](src/App.vue); without a compatible backend the built-in sample document
+still renders, but loading and saving do not.
 
 ## What it can do now
 
@@ -67,10 +68,9 @@ See [`docs/project-status.md`](docs/project-status.md) for the archive note.
 ## How to contribute
 
 This repository is archived and not actively maintained, so there is no roadmap
-commitment. Issues and small pull requests that fix a clear defect are welcome; keep the
-diff focused, preserve the existing two-component structure, and say which backend shape
-you tested against. Changes that depend on a different API should describe that API in
-the pull request.
+commitment. Issues and small pull requests that fix a clear defect are welcome — see
+[`CONTRIBUTING.md`](CONTRIBUTING.md) for how to run the app, the one check that exists
+(`npm run build`), and what a pull request should contain.
 
 ## Roadmap
 

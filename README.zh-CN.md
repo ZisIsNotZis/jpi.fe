@@ -21,7 +21,8 @@ npm install
 npm run dev
 ```
 
-打开 Vite 输出的地址（通常是 `http://localhost:5173`）。实体列表和翻页请求写死在 [`src/App.vue`](src/App.vue) 的 `http://127.0.0.1:8080/api`；没有匹配的后端时，内置示例文档仍会显示，但加载和保存不可用。
+打开 Vite 输出的地址（通常是 `http://localhost:5173`）。实体列表和翻页使用写死在
+[`src/App.vue`](src/App.vue) 中的协议相对基地址 `//127.0.0.1:8080/api`；没有匹配的后端时，内置示例文档仍会显示，但加载和保存不可用。
 
 ## 现在能做什么
 
@@ -57,7 +58,7 @@ src/
 
 ## 如何贡献
 
-本仓库已归档，不再积极维护，因此没有路线图承诺。欢迎提交能修复明确缺陷的 issue 和小型 pull request；请保持改动集中，沿用现有的双组件结构，并说明你测试所用的后端形态。依赖不同 API 的改动，请在 pull request 中描述该 API。
+本仓库已归档，不再积极维护，因此没有路线图承诺。欢迎提交能修复明确缺陷的 issue 和小型 pull request——如何运行、唯一存在的检查（`npm run build`）以及 pull request 应包含什么，见 [`CONTRIBUTING.md`](CONTRIBUTING.md)。
 
 ## 路线图
 
