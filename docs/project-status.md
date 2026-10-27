@@ -7,14 +7,14 @@ inspectable instead of rotting. Copied — the original was not modified.
 
 ## Status
 
-See `README.md` for what it is and an honest status line (`deprecated (<year> era)
-- kept as an archive` where applicable).
+Deprecated (2024-era prototype) and kept as an archive. [README.md](../README.md)
+states what it is, how to run it and its limits.
 
 ## Evidence
 
 - Source: `~/my/jpi.fe` (private archive), copied verbatim except for junk
   binaries, caches and any file that tripped the credential scanner.
-- `README.md` in this repo documents what it is, how to run it and its limits.
+- [README.md](../README.md) documents what it is, how to run it and its limits.
 
 ## Boundaries
 
